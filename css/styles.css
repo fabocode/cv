@@ -1,8 +1,11 @@
 body {
-    margin: 0px
+    margin: 0px;
+    text-align: center;
+    font-family: verdana, sans-serif;
 }
 h1 {
-    margin-top: 0px;
+    width: 10%;
+    margin: 0 auto 0 auto;
 }
 
 .top-container {
@@ -10,13 +13,15 @@ h1 {
 }
 
 .middle-container {
-    width: 200px;
-    height: 200px;
-    background-color: red;
 }
 
 .bottom-container {
-    width: 200px;
-    height: 200px;
-    background-color: blue;
+}
+
+.top-cloud {
+    position: absolute;
+}
+
+.bottom-cloud {
+    position: absolute;
 }
